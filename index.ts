@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { scryfall_fetch, type ScryfallCard } from './scryfall.ts'
 import { mana_pool_fetch } from './mana_pool.ts'
 import { find_dual_color_combos, is_valid_color } from './find_dual_color_combos.ts'
