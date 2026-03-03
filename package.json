@@ -2,6 +2,12 @@
 	"name": "essential-lands",
 	"version": "0.0.1",
 	"type": "module",
+	"bin": {
+		"essential-lands": "index.ts"
+	},
+	"engines": {
+		"node": ">=24"
+	},
 	"scripts": {
 		"test": "tsc --noEmit"
 	},
