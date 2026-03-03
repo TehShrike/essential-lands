@@ -11,7 +11,7 @@ if (!MANA_POOL_API_KEY) {
 	throw new Error('MANA_POOL_API_KEY is not set')
 }
 
-const dual_color_combos = find_dual_color_combos(filter(arg.split(''), is_valid_color))
+const dual_color_combos = find_dual_color_combos(filter(arg.toLowerCase().split(''), is_valid_color))
 
 console.log(`Making ${dual_color_combos.length} requests to Scryfall...`)
 
